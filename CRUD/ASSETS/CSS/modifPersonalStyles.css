@@ -1,0 +1,26 @@
+*{
+	font-family: "Signika", sans-serif;
+	font-family: "Signika", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+	  "GRAD" 0;
+}
+
+body{
+	background-image: url(../../../ASSETS/image/FONDO03.png);
+	background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;  
+    min-height: 100vh;
+}
+
+select.form-control {
+    max-height: 38px;
+    overflow-y: auto;
+}
+
+select.form-control option {
+    padding: 8px;
+}

@@ -1,0 +1,32 @@
+*{
+	font-family: "Signika", sans-serif;
+	font-family: "Signika", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings: "GRAD" 0;
+}
+
+body{
+	background-image: url(../../../ASSETS/image/FONDO06.png);
+	background-size: cover;  /* Hace que la imagen cubra todo el contenedor */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+    background-attachment: fixed;  /* Mantiene la imagen fija al hacer scroll */
+    min-height: 100vh;
+}
+
+.materialesH1{
+    padding: 50px;
+}
+h3{
+    padding: 300px;
+}
+
+select.form-control {
+    max-height: 38px;
+    overflow-y: auto;
+}
+select.form-control option {
+    padding: 8px;
+}
